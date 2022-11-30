@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="ISO-8859-1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>        
+        <link rel="shortcut icon" href="imagens/icon.png" type="image/gif" />               
+        <link rel="stylesheet" href="Styles/menustyle.css">
+        <title> Capgemini - Controle de Tarefas</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            .main iframe {
+                border: none;
+                position: absolute;
+                margin-top: 2px;
+                width:  100%;
+                height: 100%;
+            }
+        </style>
+    </head>
+         
+    <body>
+       
+        <!-- ESTRUTURA DO MENU -->
+
+        <div class="topnav" id="myTopnav">
+            <a href="index.html" class="active"> Início <i style="color:white"></i></a>   
+            <div class="topnav" id="myTopnav">
+            
+                <!-- ADMINISTRAÇÃO -->
+                <div class="dropdown">
+                    <button class="dropbtn">Colaborador <i class="fa fa-caret-down"></i></button>
+                    <div class="dropdown-content"> 
+                        <a href="cadastracolaborador.jsp" target="janela_prog"> Cadastrar </a>
+                        <a href="consultarcolaborador.jsp" target="janela_prog"> Consultar </a>
+                    </div> 
+                </div>            
+                
+                <!-- TAREFAS -->
+                <div class="dropdown">
+                    <button class="dropbtn">Tarefas <i class="fa fa-caret-down"></i></button>
+                    <div class="dropdown-content"> 
+                        <a href="cadastratarefa.jsp"            target="janela_prog"> Cadastrar </a>                        
+                        <a href="consultatarefa.jsp"            target="janela_prog"> Consultar </a>                        
+                    </div> 
+                </div> 
+            </div>   
+        </div>
+      
+        <!-- IFRAME ONDE ABREM AS TELAS DO SISTEMA -->
+        <div class="main">
+             <!-- logomarca no cenro da tela -->
+        
+            <iframe name="janela_prog" element.mozRequestFullScreen()></iframe>
+        </div>
+    </body>
+</html>

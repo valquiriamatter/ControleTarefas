@@ -1,0 +1,113 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-font-smoothing:antialiased;
+    -moz-font-smoothing:antialiased;
+    -o-font-smoothing:antialiased;
+}
+
+body {
+    font-family:"Open Sans", Helvetica, Arial, sans-serif;
+    font-weight:200;
+    font-size: 12px;
+    line-height:2px;
+    color:#777;
+    background:#263238;
+}
+
+.container {
+    max-width:650px;
+    width:100%;
+    margin:0 auto;
+    height: 750px;
+    position:relative;
+}
+
+#matchtech {
+    background:#3d505a;
+    height: 500px;;
+    padding:4px;
+    margin:2px 0;
+}
+
+#matchtech h3 {
+	color: rgb(244, 248, 6);
+	display: block;
+	font-size: 20px;
+	font-weight: 200;
+	text-align: center;
+    padding: 8px;
+    margin-bottom: 15px;
+}
+
+#matchtech h4 {
+	color: rgb(244, 248, 6);
+	display: block;
+	font-size: 15px;
+	font-weight: 200;
+	text-align: left;
+}
+
+#matchtech label {
+	color: rgb(231, 221, 221);
+	margin:5px 0 15px;
+	display:block;
+	font-size:13px;
+	font-weight: bold;
+}
+
+fieldset {
+	border: medium none !important;
+	margin: 0 0 8px;
+	min-width: 100%;
+	padding: 10px;
+	width: 100%;
+}
+
+#matchtech input[type="text"], #matchtech input[type="email"] {
+	width:100%;
+	border:1px solid rgb(59, 54, 54);
+	background:rgb(241, 245, 242);
+	margin:0 0 1px;
+	padding:1px;
+}
+
+#matchtech input[type="text"]:hover, #matchtech input[type="email"]:hover {
+	-webkit-transition:border-color 0.3s ease-in-out;
+	-moz-transition:border-color 0.3s ease-in-out;
+	transition:border-color 0.3s ease-in-out;
+	border:1px solid rgb(34, 33, 33);
+}
+
+#matchtech input:focus {
+	outline:0;
+	border:1px solid #999;
+}
+::-webkit-input-placeholder {
+ color:rgb(253, 252, 252);
+}
+:-moz-placeholder {
+ color:rgb(255, 6, 6);
+}
+::-moz-placeholder {
+ color:rgb(255, 6, 6);
+}
+:-ms-input-placeholder {
+ color:rgb(255, 6, 6);
+}
+
+.mensagem {
+  font-size: 13px;
+  align-content: center;
+  color: rgb(255, 251, 0);
+  font-weight: bold;
+  width: 100%;
+  padding: 2px;
+}
+
+.nomecolaborador {
+    width: 68%;
+}
